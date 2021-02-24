@@ -7,3 +7,6 @@ build: server.go
 
 run:
 	./"${BIN_FILE}"
+
+docker:
+	docker build -t quintok/go-http-server .
